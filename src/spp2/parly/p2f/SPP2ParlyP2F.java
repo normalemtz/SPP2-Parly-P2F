@@ -62,7 +62,7 @@ public class SPP2ParlyP2F {
                 suma = (suma + arreglo[i]);
             }
         
-        JOptionPane.showMessageDialog (null, "El total de gastos es" + suma);
+        JOptionPane.showMessageDialog (null, "El total de gastos es: " + suma);
     return arreglo;
     }
 }
