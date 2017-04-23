@@ -54,16 +54,14 @@ public class SPP2ParlyP2F {
     }
     public static double[] Matriz(){
         double suma=0;
-        int var=solicitaEntero ("¿Cuántas cantidades capturara?"); 
+        int var=solicitaEntero ("¿Cuántas cantidades capturará?"); 
         double [] arreglo = new double [var];
         
         for (int i=0; i<arreglo.length; i++){
                 arreglo[i]= solicitaDouble("Introduzca una cantidad:");
-            }
-        for (int i=0; i<arreglo.length;i++) {
-                //Promedio de todos los valores
                 suma = (suma + arreglo[i]);
-        }
+            }
+        
         JOptionPane.showMessageDialog (null, "El total de gastos es" + suma);
     return arreglo;
     }
